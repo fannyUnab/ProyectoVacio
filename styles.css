@@ -1,0 +1,23 @@
+
+.carousel-inner{
+    max-height: 30rem;
+
+}
+
+.card-img-top{
+    height: 300px !important;
+}
+
+.menu a{
+    font-size: 20px !important;
+    font-weight: 700;
+
+}
+
+#login-icon{
+    height: 10rem;
+}
+
+.input-group-text img{
+    height: 1rem;
+}
