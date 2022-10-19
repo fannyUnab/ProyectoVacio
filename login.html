@@ -51,24 +51,24 @@
         </div>
       </nav>
 <!-- SECTION PARA LOGIN -->
-   <section >
-    <div class="bg-light d-flex justify-content-center align-items-center vh-100">
-        <div  class="bg-white p-5 rounded-5 text-secondary shadow"  style="width: 25rem"  >
+   <section  >
+    <div class="bg-light d-flex justify-content-center align-items-center vh-100" >
+        <div  class="bg-white p-5 rounded-5 text-secondary shadow"  style="width: 25rem" >
           <div class="d-flex justify-content-center">
             <img src="image/login.png"  alt="login-icon" style="height: 7rem" />
           </div>
           <div class="text-center fs-1 fw-bold">Login</div>
-          <div class="input-group mt-4">
-            <div class="input-group-text bg-primary">
+          <div class="input-group mt-4" >
+            <div class="input-group-text bg-primary" >
               <img src="image/ic1.png"  alt="username-icon" />
             </div>
-            <input class="form-control bg-light" type="text" placeholder="Username" />
+            <input class="form-control bg-light" type="text"  placeholder="Username" id="correo" />
           </div>
           <div class="input-group mt-1">
             <div class="input-group-text bg-primary">
               <img src="image/ic2.png"  alt="password-icon" />
             </div>
-            <input class="form-control bg-light"  type="password"  placeholder="Password"  />
+            <input class="form-control bg-light"  type="password"  placeholder="Password" id="password"  />
           </div>
           <div class="d-flex justify-content-around mt-1">
             <div class="d-flex align-items-center gap-1">
@@ -80,7 +80,7 @@
                 style="font-size: 0.9rem" >Forgot your password?</a >
             </div>
           </div>
-          <div class="btn btn-primary text-white w-100 mt-4 fw-semibold shadow-sm">
+          <div class="btn btn-primary text-white w-100 mt-4 fw-semibold shadow-sm" onclick="verificar()" >
             Login
           </div>
           <div class="d-flex gap-1 justify-content-center mt-1">

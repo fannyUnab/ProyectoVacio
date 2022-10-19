@@ -12,7 +12,7 @@
     <header class="container-fluid bg-primary d-flex justify-content-center">
         <h1> Grupo 17 Equipo 10</h1>
     </header>
-    <!-- MENU -->
+    <!-- *****MENU**** -->
     <nav class="navbar navbar-expand-lg bg-light "  class="menu">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">equoipo10</a>
@@ -58,11 +58,12 @@
             <img src="image/login.png"  alt="login-icon" style="height: 7rem" />
           </div>
           <div class="text-center fs-1 fw-bold">Register</div>
-    <!-- FORMULARIO DATOS -->
-    <form class="row g-3 needs-validation mt-5" novalidate>
+    
+         <!--******* FORMULARIO DATOS *****-->
+    <form class="row g-3 needs-validation mt-5" novalidate name="formudatos">
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <input type="text" class="form-control" id="validationCustom01"  required name="nombre">
           <div class="valid-feedback">
             Looks good!
           </div>
@@ -120,7 +121,7 @@
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
+          <button class="btn btn-primary" type="button" onclick="validar()" >Enviar Datos</button>
         </div>
       </form>
         
